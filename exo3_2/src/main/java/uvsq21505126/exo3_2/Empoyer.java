@@ -10,7 +10,7 @@ public abstract class Empoyer{
         this.salaire = 1500;
     }
 
-    public int calculSalaire(){
+    public int calcul_salaire(){
         return salaire+anciennete*20;
     }
 

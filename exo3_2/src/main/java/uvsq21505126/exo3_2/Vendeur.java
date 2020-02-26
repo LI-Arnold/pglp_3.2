@@ -9,8 +9,8 @@ public class Vendeur extends Empoyer {
     }
 
     @Override
-    public int calculSalaire(){
-        return super.calculSalaire()+commission;
+    public int calcul_salaire(){
+        return super.calcul_salaire()+commission;
     }
 
 }
